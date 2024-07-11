@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.patika</groupId>
-	<artifactId>ch4_liveClassApiProject</artifactId>
+	<artifactId>ch4_LCApiProject_public</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ch4_liveClassApiProject</name>
 	<description>Demo project for Spring Boot</description>
