@@ -16,5 +16,11 @@ public class GlobalExceptionHandler {
 
         return  new ResponseEntity<>(error,error.getStatus());
     }
+    @ExceptionHandler(ConflictException.class)
+    public ResponseEntity<Object> handleConflictException(ConflictException ex,
+                                                          WebRequest request) {
+        ApiResponseError error = new ApiResponseError(HttpStatus.CONFLICT, ex.getMessage(), request.getDescription(false));
 
+        return new ResponseEntity<>(error, error.getStatus());
+    }
 }
