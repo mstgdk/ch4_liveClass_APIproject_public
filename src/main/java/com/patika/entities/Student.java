@@ -33,6 +33,7 @@ public class Student {
 
     @ManyToOne
     @JoinColumn
+    @JsonIgnore
     private University university;
 
     @ManyToMany()
