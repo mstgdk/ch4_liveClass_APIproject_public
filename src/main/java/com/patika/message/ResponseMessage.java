@@ -9,4 +9,6 @@ public class ResponseMessage {
     public final static String UNIVERSITY_CREATED_RESPONSE = "University succesfully created";
     public final static String COURSE_CREATED_RESPONSE = "Course succesfully created";
     public final static String UNIVERSITY_DELETED_RESPONSE = "University succesfully deleted";
+    public final static String UNIVERSITY_UPDATED_RESPONSE = "University succesfully updated";
+    public final static String STUDENT_CREATED_RESPONSE = "Student succesfully saved";
 }
